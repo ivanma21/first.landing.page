@@ -38,8 +38,14 @@ a {
     flex-direction: column;
     justify-content: center;
     flex: auto;
-    font-size: 48px;
-    margin: auto;
+    font-size: 40px;
+    gap: 8px;
+}
+
+.second-row-sx h1,
+.second-row-sx p,
+.second-row-sx button {
+    margin: 0;
 }
 
 .second-row-dx {
@@ -47,4 +53,81 @@ a {
 }
 
 .second-row-dx img {
+    width: 400px;
+}
+
+button {
+    width: fit-content;
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(82, 78, 78);
+    color: white;
+    border-radius: 36px;
+    font-size: 36px;
+}
+
+.central1 {
+    background-color: rgb(163, 181, 199);
+    padding: 36px 72px 36px 72px;
+}
+
+.central1 h1 {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 26px;
+}
+
+.imgandtxt {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    text-align: center;
+}
+
+.central1 .imgandtxt .item img,
+.second-row .second-row-dx img {
+    border-radius: 36px;
+    border: 4px solid white;
+}
+
+.item {
+    font-size: 24px;
+}
+
+.central2 {
+    display: flex;
+    justify-content: center;
+    padding: 128px 0px 128px 0px;
+    gap: 16px;
+}
+
+.central2 .no1 {
+    font-size: 40px;
+    width: 664px;
+}
+
+.no2 {
+    font-weight: 900;
+    font-size: 36px;
+    align-self: flex-end;
+}
+
+.footermain {
+    background-color: greenyellow;
+    padding: 64px 128px 64px 128px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 {
+    background-color: rgb(163, 181, 199);
+    padding: 32px 128px 32px 128px;
+    border-radius: 36px;
+    font-size: 24px;
+    display: flex;
+    gap: 48px;
+    justify-content: space-around;
+}
+
+.fdx {
+    align-self: center;
 }
