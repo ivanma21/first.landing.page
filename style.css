@@ -1,0 +1,50 @@
+.header {
+    background-color: greenyellow;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.second-row {
+    display: flex;
+    margin-top: 24px;
+    padding-bottom: 48px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 200px;
+    justify-content: center;
+    flex: auto;
+}
+
+.second-row-sx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+    font-size: 48px;
+    margin: auto;
+}
+
+.second-row-dx {
+    margin-top: 64px;
+}
+
+.second-row-dx img {
+}
